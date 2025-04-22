@@ -70,5 +70,5 @@ app.post('/api/addProject', async (req, res) => {
 
 //start server from port
 app.listen(port, () => {
-    console.log(`🚀 Server running on http://localhost:${port}`);
+    console.log(`Server running on http://localhost:${port}`);
 });
